@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+}
+section {
+  padding: 70px 5%;
+}
+.profile {
+  height: 100vh;
+  width: 100%;
+  background-color: #081420;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: auto;
+  width: 100%;
+  max-width: 460px;
+  background-color: #222429;
+  padding: 0px 0px 40px 0px;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.container:hover {
+  background-color: rgb(49, 44, 43);
+  transform: scale(1.1);
+}
+.container img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.profile-text {
+  text-align: center;
+}
+.profile-text h1 {
+  margin: 30px 0 10px;
+  font-size: 45px;
+  color: #ffffffd9;
+  line-height: 35px;
+  font-weight: 600px;
+}
+.profile-text h4 {
+  color: #efb90b;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.newslatter {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+.newslatter form {
+  width: 100%;
+  max-width: 370px;
+  position: relative;
+}
+
+.icons i {
+  display: inline-block;
+  color: #ffffffd9;
+  font-size: 20px;
+  margin: 0px 7px;
+  margin-bottom: 2rem;
+  transition: all 0.4s ease;
+}
+.icons i:hover {
+  transform: scale(1.3);
+  color: #efb90b;
+}
